@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table border="black">
+        <caption>Student's data</caption>           <!-- table's name.... -->
+
+        <thead>                         <!-- table semantics.... -->
+            <tr>                        <!-- table row.... -->
+                <th rowspan="2">Roll no.</th>           <!-- table headings.... -->
+                <th rowspan="2">Name</th>
+                <th colspan="3">Marks</th>
+            </tr>
+
+            <tr>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Hindi</th>
+            </tr>
+        </thead>
+        
+
+        <tbody>                         <!-- table semantics.... -->
+            <tr>
+                <td>107</td>                <!-- table data.... -->
+                <td>Ansh gupta</td>
+                <td>69</td>
+                <td>50</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <td>108</td>
+                <td>Guru</td>
+                <td>96</td>
+                <td>52</td>
+                <td>86</td>
+            </tr>
+        </tbody>
+
+
+        <tfoot>                         <!-- table semantics.... -->
+            <tr>
+                <td colspan="2"><strong>Total marks</strong></td>                <!-- table data.... -->
+                <td>165</td>
+                <td>102</td>
+                <td>156</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    
+
+    <script src="06_Table_navigation.js"></script>
+</body>
+
+</html>
